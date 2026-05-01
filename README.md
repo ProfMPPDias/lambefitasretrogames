@@ -26,6 +26,30 @@
 
 ---
 
+## Galeria
+
+<p align="center">
+  <img src="img/img_01.png" alt="Tela inicial - Seleção de consoles" width="600" />
+</p>
+<p align="center"><em>Tela inicial com seleção de consoles e logo Lambe Fitas</em></p>
+
+<p align="center">
+  <img src="img/img_02.png" alt="Acervo Mega Drive" width="600" />
+</p>
+<p align="center"><em>Acervo de cartuchos do Mega Drive</em></p>
+
+<p align="center">
+  <img src="img/img_03.png" alt="Detalhes do jogo" width="600" />
+</p>
+<p align="center"><em>Página do jogo com curiosidades e controles</em></p>
+
+<p align="center">
+  <img src="img/img_04.png" alt="Emulador em ação" width="600" />
+</p>
+<p align="center"><em>Emulador rodando diretamente no navegador</em></p>
+
+---
+
 ## Funcionalidades
 
 - **658+ jogos** de Mega Drive catalogados com metadados completos
@@ -191,6 +215,17 @@ export interface GameMeta {
 
 ---
 
+> ⚠️ **ATENÇÃO**
+>
+> Este repositório **NÃO contém as ROMs** dos jogos. Apenas a aplicação, metadados e capas estão incluídos.
+>
+> Para baixar a coleção de ROMs, acesse os links abaixo:
+>
+> - 🎮 **Mega Drive (Genesis)**: [Download](https://23z6sn-my.sharepoint.com/:u:/g/personal/mppdias_23z6sn_onmicrosoft_com/IQA95r48l4WMS5-FO_ku48kuAZOe_yOwEFboqL0bmaIIEME?e=Ug6BJB)
+
+---
 ## Licença
 
-Todos direitos Reservados á Lambe Fitas Games Retrô ©2026
+Todos direitos Reservados á Marcos Dias | Lambe Fitas Games Retrô ©2026
+
+---
