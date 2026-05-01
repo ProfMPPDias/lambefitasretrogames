@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emulator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #000; overflow: hidden; }
+    #game { width: 100%; height: 100%; }
+    #loading-msg {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      color: #666; font-family: sans-serif; font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+  <div id="loading-msg">Carregando emulador...</div>
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    var EJS_player = "#game";
+    var EJS_core = params.get("core") || "segaMD";
+    var romPath = params.get("rom") || "";
+    var EJS_gameUrl = window.location.origin + romPath;
+    var EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+    var EJS_startOnLoaded = true;
+    var EJS_fullscreenOnLoaded = false;
+
+    function EJS_onGameStart() {
+      var msg = document.getElementById("loading-msg");
+      if (msg) msg.remove();
+    }
+  </script>
+  <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+</body>
+</html>
